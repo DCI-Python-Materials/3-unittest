@@ -7,8 +7,9 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(to_upper('foo'), 'FOO')
 
     # test2 
+    # test with message 
     def test_word_list_isupper1(self):
-        self.assertTrue(to_word_list_isupper(['i', 'LOVE', 'PYTHON' ]))
+        self.assertTrue(to_word_list_isupper(['i', 'LOVE', 'PYTHON' ]), "test 2 return False value instead of True")
 
     # test3 
     def test_word_list_isupper2(self):

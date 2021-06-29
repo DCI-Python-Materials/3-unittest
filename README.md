@@ -4,6 +4,7 @@
 the participants will learn:
 - unittest use
 - rise error
+- test custom message
 - assert types:
     - assertTrue
     - assertFalse
