@@ -18,6 +18,13 @@ run test with more details
 ## Tasks:
 ### task1:
 why tests 2,3 and 4 will fail and how to fix them so they will pass?
+### task2: 
+write a function named get_first_letter_list which will take string parameter and return a list of first letter of each word on the parameter 
+this sentence as an example "Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital."
+### task3:
+write a test function for the previous task which will check the following:
+- function should rise TypeError in case the parameter is empty or not a string
+- the result of the function should be correct
 
 ## assert types:
 - assertEqual(a, b)          a == b
